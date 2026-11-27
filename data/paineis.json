@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-26T15:29:04+00:00",
+  "atualizado_em": "2026-11-27T13:27:47+00:00",
   "total": 43,
   "paineis": [
     {
@@ -500,7 +500,7 @@
       "links": [
         "https://info.saude.df.gov.br/sala-de-situacao/painel-infosaude-nascidos-vivos-no-df/"
       ],
-      "observacao": "Em análise final para divulgação da atualização",
+      "observacao": "Em análise final para divulgação da atualização. Foi repaginado",
       "pendencias": [
         "Nome repetido na planilha (linhas unidas)"
       ],
@@ -511,14 +511,14 @@
     {
       "nome": "Óbitos no Distrito Federal",
       "gerencia": "GIASS",
-      "descricao": "Disponibiliza dados sobre os óbitos registrados no Distrito Federal, possibilitando acompanhar a mortalidade geral, analisar sua distribuição e características, identificar padrões epidemiológicos e subsidiar ações de vigilância e planejamento em saúde.",
+      "descricao": "Disponibiliza dados sobre os óbitos registrados no Distrito Federal, possibilitando acompanhar a mortalidade geral, analisar sua distribuição e características, identificar padrões epidemiológicos e subsidiar ações de vigilância e planejamento em saúde. Banco de dados consolidados apenas. ACESSO PÚBLICO.",
       "fontes": "SIM",
       "ferramenta": "InfoSaúde",
       "status": "Disponível",
       "links": [
         "https://info.saude.df.gov.br/sala-de-situacao/painel-infosaude-obitos-no-distrito-federal/"
       ],
-      "observacao": "Ativo",
+      "observacao": "Ativo. Mas está prevista revisão do painel para 2027.",
       "pendencias": [],
       "solicitada": "Não se aplica",
       "processo_sei": null,
@@ -543,14 +543,14 @@
     {
       "nome": "Óbitos de Residentes no DF – Dados Parciais",
       "gerencia": "GIASS",
-      "descricao": "Apresenta informações preliminares sobre óbitos de residentes no Distrito Federal, possibilitando o acompanhamento parcial dos registros de mortalidade, a análise da distribuição dos óbitos e o monitoramento oportuno de informações ainda sujeitas a atualização e consolidação.",
+      "descricao": "Apresenta informações preliminares sobre óbitos de residentes no Distrito Federal, possibilitando o acompanhamento parcial dos registros de mortalidade, a análise da distribuição dos óbitos e o monitoramento oportuno de informações ainda sujeitas a atualização e consolidação. Banco de dados consolidados e o parcial do ano corrente. ACESSO APENAS GESTOR.",
       "fontes": "SIM",
       "ferramenta": "CIEGES",
       "status": "Disponível",
       "links": [
         "https://info.saude.df.gov.br/painel-cieges-obitos-de-residentes-no-df-dados-parciais/"
       ],
-      "observacao": "Ativo",
+      "observacao": "Ativo. Mas está prevista revisão do painel para 2027.",
       "pendencias": [],
       "solicitada": "Não se aplica",
       "processo_sei": null,
@@ -566,7 +566,7 @@
       "links": [
         "https://info.saude.df.gov.br/painel-cieges-obitos-de-residentes-no-df-dados-parciais/"
       ],
-      "observacao": "Em construção. Projeto de extensão da servidora LUCIENE GUEDES como atividade de graduação",
+      "observacao": "Em construção. Projeto de extensão da servidora LUCIENE GUEDES como atividade da graduação em TI. Após a conclusão do projeto, será analisado junto a DIVEP e submetido a incorporação junto a GIE",
       "pendencias": [],
       "solicitada": "Não",
       "processo_sei": "Ainda não existe",
