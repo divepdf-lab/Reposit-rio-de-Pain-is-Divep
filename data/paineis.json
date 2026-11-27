@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-11-27T14:53:02+00:00",
-  "total": 44,
+  "atualizado_em": "2026-11-27T15:57:46+00:00",
+  "total": 43,
   "paineis": [
     {
       "nome": "Painel de fatores de risco e proteção das Doenças Crônicas Não Transmissíveis.",
@@ -679,22 +679,6 @@
       "status": "Uso interno",
       "links": [
         "https://app.powerbi.com/view?r=eyJrIjoiMGExZGUwNTUtZWY2Zi00NjczLWJlZmQtNjAyZTYzODMzOWE5IiwidCI6Ijg3MzI3MTk0LWU1ZmItNGI5Yi05MTRlLTVkMWE2YTViN2UxYyJ9"
-      ],
-      "observacao": "Ativo",
-      "pendencias": [],
-      "solicitada": "Não",
-      "processo_sei": null,
-      "atendida": "Não"
-    },
-    {
-      "nome": "CRIE",
-      "gerencia": "GRF",
-      "descricao": "Monitoramento e acopanhamento dos dados do CRIE virtual",
-      "fontes": "Vigilância DF",
-      "ferramenta": "Uso interno (não publicado)",
-      "status": "Uso interno",
-      "links": [
-        "https://www.mpdft.mp.br/portal/index.php/mapa-social-do-df"
       ],
       "observacao": "Ativo",
       "pendencias": [],
