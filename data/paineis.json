@@ -1,0 +1,690 @@
+{
+  "atualizado_em": "2026-11-26T15:29:04+00:00",
+  "total": 43,
+  "paineis": [
+    {
+      "nome": "Painel de fatores de risco e proteção das Doenças Crônicas Não Transmissíveis.",
+      "gerencia": "GVDANTPS",
+      "descricao": "Objetivo de consolidar no InfoSaúde-DF informações do Vigitel sobre os fatores de risco das DCNTs para subsidiar as discussões junto às regiões de saúde.",
+      "fontes": "Microdados Vigitel.",
+      "ferramenta": "Uso interno (não publicado)",
+      "status": "Uso interno",
+      "links": [
+        "https://app.powerbi.com/view?r=eyJrIjoiNzg0NTlhNzMtZGQ3NS00ZDYzLThhM2UtM2IzN2E0NTY5MmEyIiwidCI6IjE2MTMyNTk2LWExMzgtNGM4NS1hYTViLTY0ZDk5YTJlY2U4NyJ9"
+      ],
+      "observacao": "Em elaboração pela DGIE",
+      "pendencias": [],
+      "solicitada": "Sim",
+      "processo_sei": "00060-00225965/2025-56",
+      "atendida": "Não"
+    },
+    {
+      "nome": "Painel de Vigilância da Anemia Falciforme.",
+      "gerencia": "GVDANTPS",
+      "descricao": "Objetivo de consolidar no InfoSaúde-DF informações da Vigilância das Anemias Falciformes para subsidiar as discussões junto às regiões de saúde e comissões correlatas.",
+      "fontes": "Prontuários eletrônicos (trakcare, e-SUS Sinan, etc).",
+      "ferramenta": "Uso interno (não publicado)",
+      "status": "Uso interno",
+      "links": [],
+      "observacao": "Processo enviado à DGIE.",
+      "pendencias": [],
+      "solicitada": "Sim",
+      "processo_sei": "00060-00533035/2026-54",
+      "atendida": "Não"
+    },
+    {
+      "nome": "Painel de Doenças Crônicas Não Transmissíveis",
+      "gerencia": "GVDANTPS",
+      "descricao": "Objetivo de consolidar no InfoSaúde-DF informações da linha de cuidado em diabetes para subsidiar as discussões junto às regiões de saúde.",
+      "fontes": "Prontuários eletrônicos (trakcare, e-sus, etc) e SIM.",
+      "ferramenta": "Uso interno (não publicado)",
+      "status": "Uso interno",
+      "links": [],
+      "observacao": "Processo enviado em abril/2026. Aguardando retorno da DGIE.",
+      "pendencias": [],
+      "solicitada": "Sim",
+      "processo_sei": "00060-00214236/2026-55",
+      "atendida": "Não"
+    },
+    {
+      "nome": "Painel de Morbimortalidade de Sinistros de Trânsito",
+      "gerencia": "GVDANTPS",
+      "descricao": "Objetivo de consolidar no InfoSaúde-DF informações da Comissão de Análise do Programa Vida no Trânsito para subsidiar do Comitê Central do Programa Vida no Trânsito",
+      "fontes": "Microdados Comissão de Análise do Programa Vida no Trânsito.",
+      "ferramenta": "Uso interno (não publicado)",
+      "status": "Uso interno",
+      "links": [
+        "https://app.powerbi.com/view?r=eyJrIjoiOTQ3MGQxMTYtYzNmYi00YWRjLWEzNWYtNGM2MGE2NzBmNWI2IiwidCI6IjdhMmE0YzY3LTM1MWQtNDk4OS1iOTBiLWRhZTY0OWMxOTcyOSJ9"
+      ],
+      "observacao": "Pedido de elaboração em tramitação na DGIE. Aguardando ajustes nos microdados.",
+      "pendencias": [],
+      "solicitada": "Sim",
+      "processo_sei": "00060-00524415/2026-06",
+      "atendida": "Não"
+    },
+    {
+      "nome": "Painel do Programa de Prevenção e Controle do Tabagismo",
+      "gerencia": "GVDANTPS",
+      "descricao": "Inserir nas UBS a informação que tem grupos de tabagismo na parte de \"Busca Saude\", \"Busca UBS de referência\" e criar um painel específico para o monitoramento do programa para divulgar informações à população.",
+      "fontes": "Planilhas de monitoramento do Programa.",
+      "ferramenta": "Uso interno (não publicado)",
+      "status": "Uso interno",
+      "links": [
+        "https://info.saude.df.gov.br/busca-saude-ubs/"
+      ],
+      "observacao": "Processo enviado à DGIE.",
+      "pendencias": [],
+      "solicitada": "Sim",
+      "processo_sei": "00060-00560075/2026-79",
+      "atendida": "Não"
+    },
+    {
+      "nome": "Painel sobre Intoxicação Exógena",
+      "gerencia": "GVDANTPS",
+      "descricao": "Objetivo de consolidar no InfoSaúde-DF informações das ocorrências da Intoxicação Exógena para subsidiar as discussões junto às regiões de saúde e comissões correlatas.",
+      "fontes": "Sinan-Net",
+      "ferramenta": "Uso interno (não publicado)",
+      "status": "Uso interno",
+      "links": [],
+      "observacao": "Processo enviado à DGIE.",
+      "pendencias": [],
+      "solicitada": "Sim",
+      "processo_sei": "00060-00560009/2026-07",
+      "atendida": "Não"
+    },
+    {
+      "nome": "AIDS",
+      "gerencia": "GEVIST",
+      "descricao": "Painel com dados epidemiológicos de HIV/aids do DF.",
+      "fontes": "Sinan-Net",
+      "ferramenta": "InfoSaúde",
+      "status": "Retirado para adequação",
+      "links": [
+        "https://info.saude.df.gov.br/sala-de-situacao/painel-infosaude-aids/"
+      ],
+      "observacao": "Foi solicitada a retirada do painel para adequação pela área técnica",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": "N/A",
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "HIV",
+      "gerencia": "GEVIST",
+      "descricao": "Painel destinado ao monitoramento epidemiológico do HIV no Distrito Federal, permitindo acompanhar indicadores relacionados à ocorrência dos casos, perfil epidemiológico dos indivíduos diagnosticados e distribuição dos registros. Subsidia a análise da situação epidemiológica e o planejamento das ações de prevenção, diagnóstico, assistência e vigilância.",
+      "fontes": "SINAN",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/sala-de-situacao/painel-infosaude-hiv/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": null
+    },
+    {
+      "nome": "Hepatites Virais",
+      "gerencia": "GEVIST",
+      "descricao": "Painel que reúne informações epidemiológicas sobre as hepatites virais no Distrito Federal, possibilitando acompanhar os casos notificados, sua distribuição e características epidemiológicas. Apoia o monitoramento da ocorrência desses agravos e o direcionamento das estratégias de prevenção, diagnóstico e controle.",
+      "fontes": "SINAN",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/sala-de-situacao/painel-infosaude-hepatites-virais/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": null
+    },
+    {
+      "nome": "Sífilis Adquirida",
+      "gerencia": "GEVIST",
+      "descricao": "Painel voltado ao acompanhamento epidemiológico da sífilis adquirida no Distrito Federal, com informações sobre os casos notificados e sua distribuição segundo características epidemiológicas e territoriais. Permite identificar padrões de ocorrência e subsidiar o planejamento das ações de prevenção, diagnóstico e tratamento.",
+      "fontes": "SINAN",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/sala-de-situacao/painel-infosaude-sifilis/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": null
+    },
+    {
+      "nome": "Sífilis Congênita",
+      "gerencia": "GEVIST",
+      "descricao": "Painel destinado ao monitoramento da sífilis congênita no Distrito Federal, possibilitando acompanhar os casos notificados e sua distribuição epidemiológica. Contribui para avaliar a ocorrência do agravo, identificar possíveis fragilidades na prevenção da transmissão vertical e subsidiar ações de vigilância, assistência pré-natal e cuidado materno-infantil.",
+      "fontes": "SINAN/SINASC",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/sala-de-situacao/painel-infosaude-sifilis-congenita/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": null
+    },
+    {
+      "nome": "Dashboard REVEH DF",
+      "gerencia": "GECAMP",
+      "descricao": "Disponibilizar informações estratégicas para o monitoramento da qualidade e da oportunidade das notificações realizadas pelos Núcleos Hospitalares de Epidemiologia (NHEP) nos sistemas SINAN e SIVEP-Gripe, permitindo acompanhar indicadores de completude, registros inoportunos, encerramento de casos, volume de notificações e desempenho das unidades notificadoras. A dashboard visa subsidiar a identificação de oportunidades de melhoria, o direcionamento do apoio técnico da REVEH-DF e o fortalecimento da Vigilância Epidemiológica Hospitalar no Distrito Federal.",
+      "fontes": "SINAN e SIVEP",
+      "ferramenta": "Power BI",
+      "status": "Disponível",
+      "links": [
+        "https://app.powerbi.com/view?r=eyJrIjoiYmFhYzc2NDAtNjc5OC00MGE2LWIyYTgtMTcwZDdjNmM2Y2I0IiwidCI6IjJmNTkwN2E5LTFjYWEtNGUzMS04N2M0LWQxNmY3ZWU4ODkwMCJ9"
+      ],
+      "observacao": "O processo foi encerrado sem resposta pela unidade SES/SETIS/SUTIS/DGIE/GIE em 27/01/2026. O painel está divulgado na página da REVEH na internet",
+      "pendencias": [],
+      "solicitada": "Sim",
+      "processo_sei": "00060-00351985/2025-81",
+      "atendida": "Não"
+    },
+    {
+      "nome": "Painel de monitoramento: malária DF, 2020 a 2026",
+      "gerencia": "GECAMP",
+      "descricao": "Disponibilizar informações atualizadas sobre o monitoramento da malária no Distrito Federal, a partir de 2020.",
+      "fontes": "SINAN",
+      "ferramenta": "Power BI",
+      "status": "Disponível",
+      "links": [
+        "https://app.powerbi.com/view?r=eyJrIjoiODMzNWY5YjYtMTEyZS00M2E3LTgxYjUtZDkxM2RmM2U2ZDk3IiwidCI6IjJmNTkwN2E5LTFjYWEtNGUzMS04N2M0LWQxNmY3ZWU4ODkwMCJ9"
+      ],
+      "observacao": "Solicitação de criação no CIEGES feita hoje (24/11/2026). O painel de malária já está pronto, com link disponível na página da malária (https://www.saude.df.gov.br/malaria1)",
+      "pendencias": [],
+      "solicitada": "Sim",
+      "processo_sei": "00060-00568866/2026-47",
+      "atendida": "Não"
+    },
+    {
+      "nome": "Painel de monitoramento de rumores 2026",
+      "gerencia": "GECAMP",
+      "descricao": "Disponibilizar informações atualizadas sobre rumores de relevância em saúde pública no DF, no Brasil e no mundo",
+      "fontes": "Sites de notícias, Health map, sites oficiais, Promed, Google News, EIOS, mídia social, e-mail, telefone, whatsapp, outros.",
+      "ferramenta": "Power BI",
+      "status": "Disponível",
+      "links": [
+        "https://app.powerbi.com/view?r=eyJrIjoiMWVlNjNhMzItNTIyMS00YmUzLWEyZTMtM2QwMzkwMjA1ZDI1IiwidCI6IjJmNTkwN2E5LTFjYWEtNGUzMS04N2M0LWQxNmY3ZWU4ODkwMCJ9"
+      ],
+      "observacao": "O painel encontra-se disponível na página do CIEVS (https://www.saude.df.gov.br/cievs-informacoes-estrategicas)",
+      "pendencias": [],
+      "solicitada": "Não",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Painel de monitoramento de DAE",
+      "gerencia": "GECAMP",
+      "descricao": "Disponibilizar informações atualizadas sobre doenças, agravos e eventos de notificação compulsória no Distrito Federal, comunicadas ao CIEVS-DF",
+      "fontes": "E-mail, telefone, whatsapp",
+      "ferramenta": "Power BI",
+      "status": "Disponível",
+      "links": [
+        "https://app.powerbi.com/view?r=eyJrIjoiZDYzYzdjNzktMWM1Yi00MDJkLWExMzctN2Q1NWZhODEwODQ4IiwidCI6IjJmNTkwN2E5LTFjYWEtNGUzMS04N2M0LWQxNmY3ZWU4ODkwMCJ9"
+      ],
+      "observacao": "O painel encontra-se disponível na página do CIEVS (https://www.saude.df.gov.br/cievs-informacoes-estrategicas)",
+      "pendencias": [],
+      "solicitada": "Não",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Infecção Respiratória Aguda Internações",
+      "gerencia": "GVDT",
+      "descricao": "Apresenta informações sobre internações relacionadas às infecções respiratórias agudas no Distrito Federal, permitindo acompanhar a ocorrência desses agravos, analisar sua distribuição e monitorar o comportamento epidemiológico a partir dos dados de hospitalização.",
+      "fontes": "SIH/MS",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/sala-de-situacao/infeccao-respiratoria-aguda/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Hipertensão Arterial Internações",
+      "gerencia": "GVDANTPS",
+      "descricao": "dados sobre internações hospitalares relacionadas à hipertensão arterial no Distrito Federal, possibilitando acompanhar a ocorrência de hospitalizações, analisar sua distribuição e subsidiar ações de prevenção, monitoramento e controle das doenças crônicas não transmissíveis.",
+      "fontes": "SIH/MS",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/sala-de-situacao/painel-infosaude-causas-de-atendimento-hipertensao-arterial-internacoes/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Doenças Isquêmicas do Coração Internações",
+      "gerencia": "GVDANTPS",
+      "descricao": "Apresenta informações sobre internações decorrentes de doenças isquêmicas do coração, permitindo monitorar a ocorrência desses agravos, analisar o perfil das hospitalizações e subsidiar estratégias de prevenção e vigilância das doenças cardiovasculares.",
+      "fontes": "SIH/MS",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/sala-de-situacao/painel-infosaude-causas-de-atendimento-doencas-isquemicas-do-coracao-internacoes/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Doenças do Aparelho Cerebrovasculares Internações",
+      "gerencia": "GVDANTPS",
+      "descricao": "Disponibiliza dados sobre internações relacionadas às doenças cerebrovasculares, possibilitando o acompanhamento da ocorrência desses agravos, a análise de sua distribuição e o apoio ao planejamento de ações de prevenção e vigilância.",
+      "fontes": "SIH/MS",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/sala-de-situacao/painel-infosaude-causas-de-atendimento-doencas-cerebrovasculares-internacoes/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Doenças do Aparelho Circulatório Internações",
+      "gerencia": "GVDANTPS",
+      "descricao": "Apresenta informações sobre internações hospitalares decorrentes de doenças do aparelho circulatório, contribuindo para o monitoramento epidemiológico, a análise do perfil das hospitalizações e o planejamento de ações voltadas à prevenção e ao controle desses agravos.",
+      "fontes": "SIH/MS",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/sala-de-situacao/painel-infosaude-causas-de-atendimento-doencas-do-aparelho-circulatorio-internacoes/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Diabetes Mellitus Internações",
+      "gerencia": "GVDANTPS",
+      "descricao": "Apresenta dados sobre internações relacionadas ao Diabetes Mellitus, permitindo acompanhar a ocorrência de hospitalizações, analisar sua distribuição e subsidiar ações de vigilância, prevenção de complicações e controle da doença.",
+      "fontes": "SIH/MS",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/sala-de-situacao/painel-infosaude-causas-de-atendimento-diabetes-mellitus-internacoes/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Insuficiência Renal Crônica",
+      "gerencia": "GVDANTPS",
+      "descricao": "Disponibiliza informações sobre internações relacionadas à insuficiência renal crônica, possibilitando o monitoramento das hospitalizações, a análise da distribuição do agravo e o apoio ao planejamento de ações de prevenção, acompanhamento e assistência à saúde.",
+      "fontes": "SIH/MS",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/sala-de-situacao/painel-infosaude-causas-de-atendimento-insuficiencia-renal-cronica-internacoes/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Neoplasias",
+      "gerencia": "GVDANTPS",
+      "descricao": "Apresenta informações sobre atendimentos relacionados às neoplasias no Distrito Federal, com foco nos atendimentos ambulatoriais e consultas, permitindo acompanhar a demanda assistencial, analisar a distribuição dos atendimentos e subsidiar ações de vigilância, prevenção, diagnóstico precoce e planejamento da atenção oncológica.",
+      "fontes": "SIA/MS",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/sala-de-situacao/painel-infosaude-causas-de-atendimento-cancer-consultas/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Atendimentos Dengue",
+      "gerencia": "GVDT",
+      "descricao": "Apresenta informações sobre atendimentos individuais relacionados à dengue nos serviços de saúde do Distrito Federal, permitindo acompanhar a demanda assistencial, analisar a distribuição dos atendimentos e monitorar o perfil dos usuários atendidos.",
+      "fontes": null,
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/painel-infosaude-atendimentos-individuais-de-dengue/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Mapa de incidencia da dengue",
+      "gerencia": "GVDT",
+      "descricao": "Apresenta a distribuição espacial da incidência de dengue no Distrito Federal, possibilitando identificar áreas com maior concentração de casos em relação à população, visualizar padrões territoriais e apoiar o direcionamento das ações de vigilância epidemiológica e controle vetorial.",
+      "fontes": "Boletim Epidemiológico Dengue GVDT/DIVEP/SVS/SEAS/SES-DF",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/painel-infosaude-mapa-de-incidencia-da-dengue/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Mapa de atendimentos de dengue na aps",
+      "gerencia": "GVDT",
+      "descricao": "Apresenta a distribuição territorial dos atendimentos relacionados à dengue realizados na Atenção Primária à Saúde (APS), permitindo visualizar a demanda por atendimento nas unidades e regiões de saúde e subsidiar o planejamento das ações assistenciais e de vigilância.",
+      "fontes": "e-SUS",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/painel-infosaude-mapa-de-atendimentos-de-dengue-na-aps/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Dengue casos provaveis no df",
+      "gerencia": "GVDT",
+      "descricao": "Apresenta informações sobre os casos prováveis de dengue no Distrito Federal, possibilitando acompanhar o comportamento epidemiológico da doença, monitorar sua evolução e subsidiar ações de prevenção, vigilância e controle do agravo.",
+      "fontes": "SINAN",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/painel-infosaude-dengue-casos-provaveis-no-df/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Painel animais peçonhentos",
+      "gerencia": "GEVITHA",
+      "descricao": "Acompanhar os dados atualizados sobre ocorrências com escorpiões, serpentes, aranhas e outros animais do DF. A ferramenta permite filtrar por período,tipo de animal, sexo, faixa etária e gravidade, ajudando no monitoramento e na prevenção.",
+      "fontes": "SINAN",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/sala-de-situacao/painel-infosaude-acidentes-por-animais-peconhentos/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Sim",
+      "processo_sei": "00060-00064557/2026-01",
+      "atendida": "Sim"
+    },
+    {
+      "nome": "Painel SRAG",
+      "gerencia": "GEVITHA",
+      "descricao": "Acompanhar os dados relativos às Síndromes Respiratórias Agudas Graves em residentes do DF",
+      "fontes": "SIVEP-Gripe",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/sindromes-gripais/painel-infosaude-sindromes-gripais-sindrome-respiratoria-aguda-grave-srag/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Sim",
+      "processo_sei": "00060-00464862/2023-48",
+      "atendida": "Sim"
+    },
+    {
+      "nome": "Atendimentos por Síndrome Gripal em Unidades Sentinelas",
+      "gerencia": "GEVITHA",
+      "descricao": "Acompanhar o número de atendimentos de síndrome gripal nas unidades sentinelas do DF",
+      "fontes": "PEC e-SUS APS",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/sindromes-gripais/painel-infosaude-sindromes-gripais-atendimento-por-sindrome-gripal-em-unidades-sentinelas/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Sim",
+      "processo_sei": "00060-00464862/2023-48",
+      "atendida": "Sim"
+    },
+    {
+      "nome": "Vigilância da transmissão vertical",
+      "gerencia": "GVDT",
+      "descricao": "Painel de monitoramento de indicadores relacionados à transmissão vertical, atualmente apenas a doença de Chagas está implementada, junto com a linha do tempo da mulher; avaliação de indicadores para certificação da eliminação da transmissão vertical; completude de dados; identificação de casos subnotificados; módulo de investigação de casos com exportação em PDF do relatório; emissão de boletim epidemiológico e relatório técnico; geoprocessamentos dos casos por região administrativa e região de saúde.",
+      "fontes": "e-SUS Notifica, GAL, Trakcare, SINAN NET, SINASC, SIM.",
+      "ferramenta": "Uso interno (não publicado)",
+      "status": "Uso interno",
+      "links": [],
+      "observacao": "O painel encontra-se ativo internamente na gerência. No dia 23/09/2026 tivemos uma reunião com a equipe da DGIE e DSI apresentando sobre a aplicação em desenvolvimento. Porém, ainda sem retorno sobre a ata de reunião e continuidade dos encaminhamentos desses departamentos. Processo SEI: 00060-00421753/2026-89.",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Nascidos vivos no Distrito Federal",
+      "gerencia": "GIASS",
+      "descricao": "Apresenta informações sobre os nascimentos ocorridos no Distrito Federal, permitindo acompanhar indicadores relacionados aos nascidos vivos, analisar características sociodemográficas e maternas, além de subsidiar o monitoramento da saúde materno-infantil e o planejamento das ações de saúde. Banco de dados consolidados apenas. ACESSO PÚBLICO.",
+      "fontes": "SINASC",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/sala-de-situacao/painel-infosaude-nascidos-vivos-no-df/"
+      ],
+      "observacao": "Em análise final para divulgação da atualização",
+      "pendencias": [
+        "Nome repetido na planilha (linhas unidas)"
+      ],
+      "solicitada": "Não se aplica",
+      "processo_sei": "00060-00205599/2026-08",
+      "atendida": "Sim"
+    },
+    {
+      "nome": "Óbitos no Distrito Federal",
+      "gerencia": "GIASS",
+      "descricao": "Disponibiliza dados sobre os óbitos registrados no Distrito Federal, possibilitando acompanhar a mortalidade geral, analisar sua distribuição e características, identificar padrões epidemiológicos e subsidiar ações de vigilância e planejamento em saúde.",
+      "fontes": "SIM",
+      "ferramenta": "InfoSaúde",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/sala-de-situacao/painel-infosaude-obitos-no-distrito-federal/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Mortalidade neonatal, infantil e materna",
+      "gerencia": "GIASS",
+      "descricao": "Apresenta informações e indicadores relacionados à mortalidade neonatal, infantil e materna, permitindo monitorar eventos relevantes para a saúde materno-infantil, identificar possíveis vulnerabilidades e subsidiar estratégias de prevenção, qualificação da assistência e vigilância dos óbitos.",
+      "fontes": "SIM",
+      "ferramenta": "CIEGES",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/painel-cieges-obitos-de-residentes-no-df-dados-parciais/"
+      ],
+      "observacao": "Ativo, mas desatualizado.",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Óbitos de Residentes no DF – Dados Parciais",
+      "gerencia": "GIASS",
+      "descricao": "Apresenta informações preliminares sobre óbitos de residentes no Distrito Federal, possibilitando o acompanhamento parcial dos registros de mortalidade, a análise da distribuição dos óbitos e o monitoramento oportuno de informações ainda sujeitas a atualização e consolidação.",
+      "fontes": "SIM",
+      "ferramenta": "CIEGES",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/painel-cieges-obitos-de-residentes-no-df-dados-parciais/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Notificações compulsórias do DF",
+      "gerencia": "GIASS",
+      "descricao": "Apresenta informações preliminares sobre óbitos de residentes no Distrito Federal, possibilitando o acompanhamento parcial dos registros de mortalidade, a análise da distribuição dos óbitos e o monitoramento oportuno de informações ainda sujeitas a atualização e consolidação.",
+      "fontes": "SINAN",
+      "ferramenta": "Uso interno (não publicado)",
+      "status": "Uso interno",
+      "links": [
+        "https://info.saude.df.gov.br/painel-cieges-obitos-de-residentes-no-df-dados-parciais/"
+      ],
+      "observacao": "Em construção. Projeto de extensão da servidora LUCIENE GUEDES como atividade de graduação",
+      "pendencias": [],
+      "solicitada": "Não",
+      "processo_sei": "Ainda não existe",
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "AGR – Percentual de Partos Normais por Ocorrência (Nos Hospitais Públicos)",
+      "gerencia": null,
+      "descricao": "Apresenta o percentual de partos normais realizados nos hospitais públicos do Distrito Federal, considerando o local de ocorrência do parto. Permite acompanhar a proporção de nascimentos por via vaginal, monitorar a assistência obstétrica e subsidiar ações voltadas à qualificação da atenção materno-infantil e ao incentivo às boas práticas de assistência ao parto.",
+      "fontes": "SINASC",
+      "ferramenta": "CIEGES",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/painel-cieges-agr-percentual-de-partos-normais-por-ocorrencia-nos-hospitais-publicos/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [
+        "Gerência não informada"
+      ],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Cobertura vacinal infantil e doenças imunopreveníveis",
+      "gerencia": "GRF",
+      "descricao": "Apresenta informações sobre vacinas aplicadas na Atenção Primária à Saúde (APS) no Distrito Federal, permitindo acompanhar a vacinação da população, especialmente no contexto da imunização infantil, monitorar a aplicação de doses dos imunizantes e subsidiar o acompanhamento das ações de vacinação e prevenção de doenças imunopreveníveis.",
+      "fontes": "E-SUS/SIES",
+      "ferramenta": "CIEGES",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/sala-de-situacao/painel-infosaude-atencao-primaria-vacinas-aplicadas-na-aps/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "AGR – Proporção de Óbitos nas Internações por Infarto Agudo do Miocárdio (IAM)",
+      "gerencia": "GVDANTPS",
+      "descricao": "Apresenta a proporção de óbitos entre as internações hospitalares por Infarto Agudo do Miocárdio (IAM), permitindo acompanhar a mortalidade hospitalar associada ao agravo, avaliar resultados da assistência e subsidiar estratégias de qualificação do atendimento cardiovascular na rede pública de saúde.",
+      "fontes": "SIH",
+      "ferramenta": "CIEGES",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/painel-cieges-agr-proporcao-de-obitos-nas-internacoes-por-infarto-agudo-do-miocardio-iam/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "AGR – Proporção de Óbitos nas Internações por Acidente Vascular Cerebral (AVC)",
+      "gerencia": "GVDANTPS",
+      "descricao": "Apresenta a proporção de óbitos entre as internações hospitalares por Acidente Vascular Cerebral (AVC), possibilitando monitorar a mortalidade hospitalar relacionada ao agravo, acompanhar os resultados da assistência e identificar oportunidades de melhoria na atenção às urgências e emergências cerebrovasculares.",
+      "fontes": "SIH",
+      "ferramenta": "CIEGES",
+      "status": "Disponível",
+      "links": [
+        "https://info.saude.df.gov.br/painel-cieges-agr-proporcao-de-obitos-nas-internacoes-por-acidente-vascular-encefalico-ave/"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não se aplica",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Imunização contra Vírus respiratórios",
+      "gerencia": "GRF",
+      "descricao": "Apresenta doses aplicadas, cobertura vacinal e consumo de nirsevimabe, VSR, influenza e covid-19 no DF",
+      "fontes": "API da RNDS e SIES",
+      "ferramenta": "Uso interno (não publicado)",
+      "status": "Uso interno",
+      "links": [
+        "https://app.powerbi.com/view?r=eyJrIjoiYjE5ZDFhOTAtYWY3Mi00MjBjLTgwODYtMDBmMTdiZjBkMzkwIiwidCI6Ijg3MzI3MTk0LWU1ZmItNGI5Yi05MTRlLTVkMWE2YTViN2UxYyJ9"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não",
+      "processo_sei": null,
+      "atendida": "Não se aplica"
+    },
+    {
+      "nome": "Vacinação contra dengue",
+      "gerencia": "GRF",
+      "descricao": "Apresenta doses aplicadas, cobertura vacinal e consumo de dengue para adolescente e profissionais de saúde",
+      "fontes": "API da RNDS e SIES",
+      "ferramenta": "Uso interno (não publicado)",
+      "status": "Uso interno",
+      "links": [
+        "https://app.powerbi.com/view?r=eyJrIjoiMTI3MGE4NTgtYWRmMS00OTYxLTlkY2UtYzAxMjE1OTYyOGQ2IiwidCI6Ijg3MzI3MTk0LWU1ZmItNGI5Yi05MTRlLTVkMWE2YTViN2UxYyJ9"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Sim",
+      "processo_sei": null,
+      "atendida": null
+    },
+    {
+      "nome": "CRIE Virtual",
+      "gerencia": "GRF",
+      "descricao": "Monitoramento e acopanhamento dos dados do CRIE virtual no DF",
+      "fontes": "Vigilância DF",
+      "ferramenta": "Uso interno (não publicado)",
+      "status": "Uso interno",
+      "links": [
+        "https://app.powerbi.com/view?r=eyJrIjoiMGExZGUwNTUtZWY2Zi00NjczLWJlZmQtNjAyZTYzODMzOWE5IiwidCI6Ijg3MzI3MTk0LWU1ZmItNGI5Yi05MTRlLTVkMWE2YTViN2UxYyJ9"
+      ],
+      "observacao": "Ativo",
+      "pendencias": [],
+      "solicitada": "Não",
+      "processo_sei": null,
+      "atendida": "Não"
+    }
+  ]
+}

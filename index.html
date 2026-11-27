@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Repositório de Painéis da DIVEP</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f6fa;--surf:#fff;--ink:#12263f;--mut:#5a6b80;--line:#d5dee9;--brand:#0b4a8f;--brand2:#0a2f5c;--acc:#00857c;--warn:#a65d00;--warnbg:#fff3df;--bad:#a8322d;--badbg:#fdeceb;--okbg:#e3f4f2;--inbg:#e8eefb;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0c1624;--surf:#13233a;--ink:#e6eef8;--mut:#9db0c7;--line:#27405f;--brand:#7db4f2;--brand2:#0a2f5c;--acc:#4cc9bd;--warn:#f0b35a;--warnbg:#3a2c12;--bad:#f09a95;--badbg:#3b1a19;--okbg:#10353a;--inbg:#1b2d52}}
+:root[data-theme="dark"]{--bg:#0c1624;--surf:#13233a;--ink:#e6eef8;--mut:#9db0c7;--line:#27405f;--brand:#7db4f2;--brand2:#0a2f5c;--acc:#4cc9bd;--warn:#f0b35a;--warnbg:#3a2c12;--bad:#f09a95;--badbg:#3b1a19;--okbg:#10353a;--inbg:#1b2d52}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:400 15px/1.5 "Public Sans",system-ui,sans-serif}
+header{background:var(--brand2);color:#fff;padding:18px clamp(16px,4vw,40px)}
+header small{display:block;color:#b9d2f0;font-size:13px}header h1{margin:4px 0 0;font:600 clamp(24px,4vw,34px)/1.15 Newsreader,Georgia,serif}
+.wrap{display:grid;grid-template-columns:240px 1fr;gap:24px;padding:20px clamp(16px,4vw,40px);max-width:1500px;margin:auto}
+@media(max-width:860px){.wrap{grid-template-columns:1fr}}
+nav h2,.sec h2{font:600 18px Newsreader,Georgia,serif;margin:0 0 8px}
+#ger{display:flex;flex-direction:column;gap:2px}
+@media(max-width:860px){#ger{flex-direction:row;overflow-x:auto;padding-bottom:6px}}
+#ger button{all:unset;cursor:pointer;display:flex;justify-content:space-between;gap:10px;padding:8px 10px;border-radius:6px;white-space:nowrap;color:var(--ink)}
+#ger button:hover{background:var(--inbg)}#ger button[aria-pressed=true]{background:var(--brand);color:#fff;font-weight:600}
+#ger button:focus-visible,.btn:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+#ger b{font-weight:500;opacity:.8}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:16px}
+.kpi{background:var(--surf);border:1px solid var(--line);border-radius:8px;padding:12px 14px}.kpi strong{display:block;font:600 30px/1.1 Newsreader,Georgia,serif;color:var(--brand)}.kpi span{color:var(--mut);font-size:13px}
+.panel{background:var(--surf);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin-bottom:16px}
+.bars{display:grid;grid-template-columns:auto 1fr auto;gap:6px 10px;align-items:center;font-size:13px}.bars i{display:block;height:10px;background:var(--brand);border-radius:2px}
+.bars .t{background:var(--inbg);border-radius:2px}
+.filters{display:grid;grid-template-columns:2fr 1fr 1fr auto;gap:10px;margin-bottom:6px}
+@media(max-width:700px){.filters{grid-template-columns:1fr 1fr}.filters input{grid-column:1/-1}}
+input,select{font:inherit;padding:9px 10px;border:1px solid var(--line);border-radius:6px;background:var(--surf);color:var(--ink);min-width:0}
+label.ck{display:flex;gap:6px;align-items:center;font-size:13px;color:var(--mut)}
+.meta{color:var(--mut);font-size:13px;margin:6px 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+@media(max-width:420px){.grid{grid-template-columns:1fr}}
+.card{background:var(--surf);border:1px solid var(--line);border-left:5px solid var(--acc);border-radius:8px;padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+.card.st-Uso{border-left-color:var(--brand)}.card.st-Retirado{border-left-color:var(--bad)}.card.st-Sem{border-left-color:var(--warn)}
+.card h3{margin:0;font:600 19px/1.25 Newsreader,Georgia,serif}
+.tags{display:flex;flex-wrap:wrap;gap:6px}.tag{font-size:12px;padding:2px 8px;border-radius:99px;background:var(--inbg);color:var(--ink)}
+.tag.ok{background:var(--okbg)}.tag.bad{background:var(--badbg);color:var(--bad)}.tag.warn{background:var(--warnbg);color:var(--warn)}
+.card p{margin:0;font-size:14px}.muted{color:var(--mut)}
+dl{margin:0;font-size:13px}dt{color:var(--mut);display:inline}dd{display:inline;margin:0}dl div{margin:2px 0}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:4px}
+.btn{display:inline-block;padding:8px 12px;border-radius:6px;background:var(--brand);color:#fff;text-decoration:none;font-weight:600;font-size:14px}
+.btn.off{background:var(--line);color:var(--mut)}
+[data-theme=dark] .btn,:root:not([data-theme=light]) .btn{color:#0a2f5c}
+.flags{font-size:12px;color:var(--warn);background:var(--warnbg);padding:6px 8px;border-radius:6px}
+details{font-size:13px}summary{cursor:pointer;color:var(--brand)}
+footer a{color:var(--brand)}footer{padding:20px clamp(16px,4vw,40px);color:var(--mut);font-size:12.5px;max-width:1500px;margin:auto}
+.empty{padding:30px;text-align:center;color:var(--mut);border:1px dashed var(--line);border-radius:8px}
+</style></head><body>
+<header><small>Secretaria de Estado de Saúde do Distrito Federal · Diretoria de Vigilância Epidemiológica – DIVEP</small><h1>Repositório de Painéis da DIVEP</h1></header>
+<div class="wrap">
+<nav aria-label="Gerências"><h2>Gerências</h2><div id="ger"></div></nav>
+<main>
+<section class="kpis" id="kpis" aria-label="Indicadores do repositório"></section>
+<section class="sec"><h2>Catálogo de painéis</h2>
+<div class="filters">
+<input id="q" type="search" placeholder="Pesquisar pelo nome do painel" aria-label="Pesquisar pelo nome do painel">
+<select id="fe" aria-label="Tipo de ferramenta"></select><select id="fs" aria-label="Status de disponibilidade"></select>
+<label class="ck"><input type="checkbox" id="fp">Só com pendências</label></div>
+<div class="meta" id="meta"></div><div class="grid" id="grid"></div></section>
+</main></div>
+<footer>Dados sincronizados automaticamente da planilha “Painéis das Gerências – levantamento DIVEP” (aba Levantamento). Última sincronização: <b id="sync">carregando…</b>. <a href="https://docs.google.com/spreadsheets/d/1_Mv1fkl06iyS7PDa177YiTfILXn_Eo_Q/edit?gid=1526054155" target="_blank" rel="noopener noreferrer">Planilha de origem</a> (o acesso depende das permissões da planilha). Os painéis abrem nas plataformas originais e podem exigir permissão de acesso.</footer>
+<script>
+let DATA=[];
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const g=d=>d.gerencia||"Não informada";
+const uniq=a=>[...new Set(a)];
+let sel="Todas";
+const cnt=k=>DATA.reduce((m,d)=>(m[k(d)]=(m[k(d)]||0)+1,m),{});
+let gers=[];
+function kpis(){
+ const k=[[DATA.length,"painéis cadastrados"],[uniq(DATA.map(g).filter(x=>x!=="Não informada")).length,"siglas de gerência"],
+ [DATA.filter(d=>d.status==="Disponível").length,"painéis disponíveis"],[DATA.filter(d=>d.status==="Uso interno").length,"de uso interno (não publicados)"],
+ [DATA.filter(d=>d.flags.length).length,"com pendência de cadastro"]];
+ $("kpis").innerHTML=k.map(([n,l])=>`<div class="kpi"><strong>${n}</strong><span>${l}</span></div>`).join("");
+}
+function nav(){
+ $("ger").innerHTML=[["Todas",DATA.length],...gers].map(([n,c])=>`<button aria-pressed="${n===sel}" data-g="${esc(n)}">${esc(n)} <b>${c}</b></button>`).join("");
+ $("ger").querySelectorAll("button").forEach(b=>b.onclick=()=>{sel=b.dataset.g;nav();render()});
+}
+function opts(id,label,vals){$(id).innerHTML=`<option value="">${label}</option>`+vals.map(v=>`<option>${esc(v)}</option>`).join("")}
+function card(d){
+ const st=d.status==="Disponível"?"ok":d.status==="Retirado para adequação"?"bad":d.status==="Sem link"?"warn":"";
+ const links=d.links.length?d.links.filter(l=>/^https:\/\//.test(l.url)).map((l,i)=>`<a class="btn" href="${esc(l.url)}" target="_blank" rel="noopener noreferrer">${esc(l.label||"Acessar painel")}</a>`).join(""):`<span class="btn off">${d.status==="Uso interno"?"Não publicado":"Sem link cadastrado"}</span>`;
+ const row=(k,v)=>v?`<div><dt>${k}: </dt><dd>${esc(v)}</dd></div>`:"";
+ const inner=d.status==="Uso interno"&&(d.solicitada||d.sei||d.atendida)?`<details><summary>Andamento da solicitação ao InfoSaúde</summary><dl>${row("Solicitada",d.solicitada)}${row("Processo SEI",d.sei)}${row("Atendida",d.atendida)}</dl></details>`:"";
+ return `<article class="card st-${d.status.split(" ")[0]}"><div class="tags"><span class="tag">${esc(g(d))}</span><span class="tag">${esc(d.ferramenta)}</span><span class="tag ${st}">${esc(d.status)}</span></div>
+ <h3>${esc(d.nome)}</h3><p class="${d.descricao?"":"muted"}">${d.descricao?esc(d.descricao):"Descrição não cadastrada na planilha."}</p>
+ <dl>${row("Fonte dos dados",d.fontes)}${row("Situação",d.obs)}</dl>${inner}
+ ${d.flags.length?`<div class="flags">${d.flags.map(esc).join("<br>")}</div>`:""}<div class="btns">${links}</div></article>`;
+}
+function render(){
+ const q=$("q").value.trim().toLowerCase(),fe=$("fe").value,fs=$("fs").value,fp=$("fp").checked;
+ const r=DATA.filter(d=>(sel==="Todas"||g(d)===sel)&&(!q||d.nome.toLowerCase().includes(q))&&(!fe||d.ferramenta===fe)&&(!fs||d.status===fs)&&(!fp||d.flags.length));
+ $("meta").textContent=`${r.length} de ${DATA.length} painéis${sel!=="Todas"?` · gerência ${sel}`:""}`;
+ $("grid").innerHTML=r.length?r.map(card).join(""):`<div class="empty">Nenhum painel corresponde aos filtros. Limpe a pesquisa ou escolha outra gerência.</div>`;
+}
+["q","fe","fs","fp"].forEach(i=>$(i).addEventListener("input",render));
+fetch("data/paineis.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{
+ DATA=j.paineis.map((d,i)=>({...d,id:i,obs:d.observacao,flags:d.pendencias||[],sei:d.processo_sei,links:(d.links||[]).map(u=>({url:u,label:null}))}));
+ gers=Object.entries(cnt(g)).sort((a,b)=>b[1]-a[1]);
+ opts("fe","Todas as ferramentas",uniq(DATA.map(d=>d.ferramenta)).sort());opts("fs","Todos os status",uniq(DATA.map(d=>d.status)).sort());
+ const dt=new Date(j.atualizado_em);$("sync").textContent=isNaN(dt)?"não informada":dt.toLocaleString("pt-BR",{dateStyle:"short",timeStyle:"short"});
+ kpis();nav();render();
+}).catch(e=>{$("grid").innerHTML='<div class="empty">Não foi possível carregar data/paineis.json. A página precisa estar hospedada (por exemplo, no GitHub Pages) e o arquivo precisa existir. Detalhe: '+esc(e.message)+'</div>'});
+</script></body></html>
